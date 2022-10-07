@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BTSI - Home</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="images/loader-image.gif" alt="BTSI">
+        </div>
+    </div>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+        <div class="overlay-content">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav-center">
+                    <div class="collapse navbar-collapse top-menu justify-content-center" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown position-static noleft">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">About</a>
+                                <ul class="dropdown-menu shadow">
+                                    <li><a class="dropdown-item" href="btsi-strategy.html">BTSI Strategy</a></li>
+                                    <li><a class="dropdown-item" href="btsi-org-structure.html">BTSI Org.
+                                            Structure</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown position-static noleft">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">MMC</a>
+                                <ul class="dropdown-menu shadow">
+                                    <li><a class="dropdown-item" href="insulated-precast-systems.html">Insulated
+                                            Precast
+                                            Systems</a></li>
+                                    <li><a class="dropdown-item" href="autoclaved-aerated-concrete.html">Autoclaved
+                                            Aerated Concrete</a></li>
+                                    <li><a class="dropdown-item" href="tunnel-formwork.html">Tunnel Formwork</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="insulated-concrete-forms.html">Insulated
+                                            Concrete
+                                            Forms</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="modular-and-structural-light-gauge-steel.html">Modular and
+                                            Structural
+                                            Light Gauge Steel</a></li>
+                                    <li><a class="dropdown-item" href="modular-concrete.html">Modular Concrete</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown position-static noleft">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">FMC</a>
+                                    <ul class="dropdown-menu shadow">
+                                        <li><a class="dropdown-item" href="3d-printing-technology.html">3D Printing
+                                                Technology</a></li>
+                                        <li><a class="dropdown-item" href="advanced-prefab-construction.html">Advanced
+                                                    Prefab Construction</a></li>
+                                        <li><a class="dropdown-item" href="robotics.html">Robotics</a></li>
+                                        <li><a class="dropdown-item" href="smart-devices.html">Smart Devices</a></li>
+                                        <li><a class="dropdown-item" href="drones.html">Drones</a></li>
+                                        <li><a class="dropdown-item" href="advanced-materials.html">Advanced
+                                                Materials</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="advanced-software.html">Advanced Software</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="sustainable-energy-solutions.html">Sustainable
+                                                Energy Solutions</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown dropdown-mega position-static noborder">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Services</a>
+                                <div class="dropdown-menu shadow">
+                                    <div class="mega-content px-4">
+                                        <div class="container-fluid">
+                                            <div class="row">
+    
+                                                <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                                                    <h5>Financial Offerings</h5>
+                                                    <div class="list-group">
+                                                        <a class="list-group-item" href="tp-funding.html">TP
+                                                            Funding</a>
+                                                        <a class="list-group-item"
+                                                            href="working-capital-funding.html">Working Capital
+                                                            Funding</a>
+                                                        <a class="list-group-item"
+                                                            href="homebuilders-funding.html">Homebuilders
+                                                            Funding</a>
+                                                        <a class="list-group-item" href="land-subsidization.html">Land
+                                                            Subsidization</a>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                                                    <h5>Regulatory & Qualification</h5>
+                                                    <div class="list-group">
+                                                        <a class="list-group-item"
+                                                            href="technology-approval.html">Technology Approval</a>
+                                                        <a class="list-group-item"
+                                                            href="contractors-qualification.html">Contractors
+                                                            Qualification</a>
+                                                        <a class="list-group-item"
+                                                            href="engineering-offices-qualifications.html">Engineering
+                                                            Offices Qualifications</a>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                                                    <h5>Sector Upskilling</h5>
+                                                    <div class="list-group">
+                                                        <a class="list-group-item" href="trainings-webinars.html">Trainings
+                                                            & Webinars</a>
+                                                        <a class="list-group-item"
+                                                            href="value-engineering-advisory-services.html">Value
+                                                            Engineering & Advisory Services</a>
+                                                        <a class="list-group-item" href="mmc-curricula.html">MMC
+                                                            Curricula</a>
+                                                        <a class="list-group-item" href="mmc-scholarships.html">MMC
+                                                            Scholarships</a>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                                                    <h5>FMC Innovation</h5>
+                                                    <div class="list-group">
+                                                        <a class="list-group-item" href="fmc-localization.html">FMC
+                                                            Localization</a>
+                                                        <a class="list-group-item" href="pilots-implementation.html">Pilots
+                                                            Implementation</a>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                                                    <h5>Ecosystem Enablement</h5>
+                                                    <div class="list-group">
+                                                        <a class="list-group-item" href="tp-developer-matchmaking.html">TP -
+                                                            Developer
+                                                            Matchmaking</a>
+                                                        <a class="list-group-item" href="tp-contractors-alliances.html">TP -
+                                                            Contractors
+                                                            Alliances</a>
+                                                        <a class="list-group-item" href="innovation-park.html">Innovation
+                                                            Park</a>
+                                                    </div>
+                                                </div>
+    
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-static noleft">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside">Media & Events</a>
+                                <ul class="dropdown-menu shadow">
+                                    <li><a class="dropdown-item" href="construction.html">Latest News</a></li>
+                                    <li><a class="dropdown-item" href="construction.html">Latest Events</a></li>
+                                    <li><a class="dropdown-item" href="construction.html">Publications</a></li>
+                                    <li><a class="dropdown-item" href="construction.html">Trainings</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: fl;">
+                    <div class="lang">
+                        <div class="dropdown">
+                          <a class="btn dropdown-toggle" href="index-ar.html"   aria-expanded="false">
+                            عربي
+                          </a>
+                        </div>
+                      </div>
+                </div>
+        </nav>
+    </div>
+    <section class="mmc-title">
+        <div class="topbgblue-with-bg">
+            <div class="container">
+                <div class="row welco-box">
+                    <h3 class="welcom-title">Financial Offering </h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                TP Funding
+                            </h1>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="welcom-sub-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                The TP Funding service provides the chance for Technology Providers to initiate or
+                                expand their operations in the Kingdom. Through a collaboration with the Saudi
+                                Industrialization Development Fund, we open the door for Technology Providers to setup
+                                new factories, expand and modernize existing ones, and execute new projects. Our funding
+                                service includes four main types of loans
+                            </p>
+                            <div class="row tp-funding-items">
+                                <div class="col-md-3">
+                                    <img src="images/settings.svg" alt="">
+                                    <p>
+                                        <b>
+                                            Factory
+                                            <br>
+                                            setup loan
+                                        </b>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/expand.svg" alt="">
+                                    <p>
+                                        <b>
+                                            Factory
+                                            <br>
+                                            expansion loan
+                                        </b>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/lamp.svg" alt="">
+                                    <p>
+                                        <b>
+                                            Factory
+                                            <br>
+                                            modernization loan
+                                        </b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space85"></div>
+            </div>
+        </div>
+    </section><!-- structure -->
+    <section class="tp-beneficiaries container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="icon" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="images/beneficiaries.svg" alt="beneficiaries" class="svg-inline">
+                </div>
+                <div class="content" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>
+                        Beneficiaries
+                    </h2>
+                    <p>
+                        Technology Providers offering any of the sponsored MMCs:
+
+                    </p>
+                    <ul>
+                        <li>
+                            AAC
+                        </li>
+                        <li>
+                            LGS
+                        </li>
+                        <li>
+                            IPS
+                        </li>
+                        <li>
+                            ICF
+                        </li>
+                        <li>
+                            Tunnel Formwork
+                        </li>
+                        <li>
+                            Modular Concrete
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="application-process container=fluid">
+        <h3 class="text-center">Application Process</h3>
+        <div class="container proccesses">
+            <div class="bg">
+                <img src="images/line-4-icon.svg" alt="">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="proccess-item" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="icon-container text-center">
+                            <div class="icon">
+                                <img src="images/process-paper.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="counter">
+                                01
+                            </div>
+                            <p>
+                                TP submits required documents and completes funding forms
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="proccess-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="icon-container text-center">
+                            <div class="icon">
+                                <img src="images/process-search.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="counter">
+                                02
+                            </div>
+                            <p>
+                                BTSI team assesses funding forms and required documents
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="proccess-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="icon-container text-center">
+                            <div class="icon">
+                                <img src="images/process-currency.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="counter">
+                                03
+                            </div>
+                            <p>
+                                BTSI team develops and submits loan application to SIDF
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="proccess-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+                        <div class="icon-container text-center">
+                            <div class="icon">
+                                <img src="images/process-check-paper.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="counter">
+                                04
+                            </div>
+                            <p>
+                                SIDF performs assessment and decides on loan approval
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="required-documents container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="text-left col-md-12 " data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="title">Required Documents </h3>
+                    <button type="button" class="btn btn-green">Apply Now</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="icon">
+                        <img src="images/process-financial-model.svg" alt="company profile">
+                        <h5>Financial Model</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="icon">
+                        <img src="images/process-commercial-record.svg" alt="company profile">
+                        <h5>Loan Application Form
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="icon">
+                        <img src="images/process-upload-green.svg" alt="company profile">
+                        <h5>Supporting Documents
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container line-bottom">
+            <div class="row">
+                <div class="col-md-4 ptb30">
+                    <div class="row space10">
+                        <div class="col-md-1"><img src="images/phone-outline.svg"></div>
+                        <div class="col-md-11"><a href="tel:199090" class="white-text">199090</a></div>
+                    </div>
+                    <div class="row space10">
+                        <div class="col-md-1"><img src="images/email.svg"></div>
+                        <div class="col-md-11"><a href="mailto:bti@momrah.gov.sa"
+                            class="white-text">bti@momrah.gov.sa</a></div>
+                    </div>
+                </div><!-- col-md-4 -->
+                <div class="col-md-4 ptb30">
+                    <div class="footer-social-text">We will be happy to follow us on our social media accounts</div>
+					<div class="row social-link">
+						<div class="col-md-2"><a href="https://www.instagram.com/saudimomra/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://twitter.com/saudimomrah" class="twitter"><i class="fa-brands fa-twitter"></i></a></div>
+						<div class="col-md-2"><a href="https://www.linkedin.com/company/ministry-of-municipal-and-rural-affairs-and-housing/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://www.facebook.com/saudimomra" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://www.youtube.com/user/SaudiMOMRA" class="youtube"><i class="fa-brands fa-youtube"></i></a></div>
+					</div>
+                </div><!-- col-md-4 -->
+                <div class="col-md-4 ptb30 footer-logos">
+                    <img src="images/momrah-logo-white.svg" alt="momrah">
+                    <img src="images/mc-logo-white.svg" alt="mc">
+                </div><!-- col-md-4 -->
+            </div><!-- row -->
+        </div><!-- container -->
+        <div class="container copyright text-center">
+            <div class="row">
+                <div class="col-md-12 w100">
+                    All rights reserved to the Ministry of Municipal and Rural Affairs and Housing © 2022
+                </div>
+            </div>
+        </div>
+    </footer><!-- footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src ="https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/inlineSVG.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

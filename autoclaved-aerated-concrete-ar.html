@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BTSI - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="style.rtl.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="images/loader-image.gif" alt="BTSI">
+        </div>
+    </div>
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+        <div class="overlay-content">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index-ar.html"><img src="images/logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-center">
+              <div class="collapse navbar-collapse top-menu justify-content-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown position-static noleft">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">عن المبادرة</a>
+                    <ul class="dropdown-menu shadow">
+                      <li><a class="dropdown-item" href="btsi-strategy-ar.html">إستراتيجية مبادرة تحفيز تقنية البناء</a></li>
+                      <li><a class="dropdown-item" href="btsi-org-structure-ar.html">الهيكل التنظيمي لمبادرة تحفيز تقنية البناء</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown position-static noleft">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">أساليب البناء الحديث </a>
+                    <ul class="dropdown-menu shadow">
+                      <li><a class="dropdown-item" href="insulated-precast-systems-ar.html">أنظمة الخرسانة مسبقة الصب</a></li>
+                      <li><a class="dropdown-item" href="autoclaved-aerated-concrete-ar.html">الخرسانة الخلوية خفيفة الوزن</a></li>
+                      <li><a class="dropdown-item" href="tunnel-formwork-ar.html">القوالب النفقية</a></li>
+                      <li><a class="dropdown-item" href="insulated-concrete-forms-ar.html">وحدات الخرسانة المعزولة</a></li>
+                      <li><a class="dropdown-item"
+                          href="modular-and-structural-light-gauge-steel-ar.html">الوحدات والهياكل الحديدية الجاهزة خفيفة الوزن</a></li>
+                      <li><a class="dropdown-item" href="modular-concrete-ar.html">الوحدات الخرسانية الجاهزة</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown position-static noleft">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">أساليب البناء المستقبلية</a>
+                    <ul class="dropdown-menu shadow">
+                      <li><a class="dropdown-item" href="3d-printing-technology-ar.html">الطباعة الثلاثية الأبعاد</a></li>
+                      <li><a class="dropdown-item" href="advanced-prefab-construction-ar.html">البناء الجاهز المتقدم</a></li>
+                      <li><a class="dropdown-item" href="robotics-ar.html">الروبوتات</a></li>
+                      <li><a class="dropdown-item" href="smart-devices-ar.html"> الأجهزة الذكية</a></li>
+                      <li><a class="dropdown-item" href="drones-ar.html">طائرات بدون طيار</a></li>
+                      <li><a class="dropdown-item" href="advanced-materials-ar.html"> المواد المتطورة</a>
+                      </li>
+                      <li><a class="dropdown-item" href="advanced-software-ar.html">برامج متقدمة</a>
+                      </li>
+                      <li><a class="dropdown-item" href="sustainable-energy-solutions-ar.html">حلول الطاقة المستدامة</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown dropdown-mega position-static noborder">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">خدمات مبادرة تحفيز تقنية البناء</a>
+                    <div class="dropdown-menu shadow">
+                      <div class="mega-content px-4">
+                        <div class="container-fluid">
+                          <div class="row">
+      
+                            <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                              <h5>العروض المالية</h5>
+                              <div class="list-group">
+                                <a class="list-group-item" href="tp-funding-ar.html">تمويل مزودي التقنيات</a>
+                                <a class="list-group-item"
+                                  href="working-capital-funding-ar.html">تمويل رأس المال</a>
+                                <a class="list-group-item"
+                                  href="homebuilders-funding-ar.html">تمويل بناة المساكن </a>
+                                <a class="list-group-item" href="land-subsidization-ar.html">دعم الأراضي</a>
+                              </div>
+                            </div>
+      
+                            <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                              <h5>التنظيم والتأهيل</h5>
+                              <div class="list-group">
+                                <a class="list-group-item"
+                                  href="technology-approval-ar.html">الموافقة التقنية</a>
+                                <a class="list-group-item"
+                                  href="contractors-qualification-ar.html">تأهيل المقاولين</a>
+                                <a class="list-group-item"
+                                  href="engineering-offices-qualifications-ar.html"> تأهيل المكاتب الهندسية</a>
+                              </div>
+                            </div>
+      
+                            <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                              <h5>رفع مهارات القطاع</h5>
+                              <div class="list-group">
+                                <a class="list-group-item"
+                                href="trainings-webinars-ar.html">الدورات التدريبية والندوات عبر الإنترنت </a>
+                                <a class="list-group-item"
+                                  href="value-engineering-advisory-services-ar.html">الهندسة القيمة والخدمات الاستشارية</a>
+                                <a class="list-group-item" href="mmc-curricula-ar.html"> مناهج أساليب البناء الحديث</a>
+                                <a class="list-group-item" href="mmc-scholarships-ar.html">منح الدراسية </a>
+                              </div>
+                            </div>
+      
+                            <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                              <h5>ابتكار أساليب البناء الحديث</h5>
+                              <div class="list-group">
+                                <a class="list-group-item" href="fmc-localization-ar.html">توطين أساليب البناء المستقبلية</a>
+                                <a class="list-group-item"
+                                  href="pilots-implementation-ar.html">التنفيذ التجريبي</a>
+                              </div>
+                            </div>
+      
+                            <div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+                              <h5>تمكين المنظومة</h5>
+                              <div class="list-group">
+                                <a class="list-group-item"
+                                  href="tp-developer-matchmaking-ar.html"> الربط بين المطورين ومزودي التقنيات</a>
+                                <a class="list-group-item"
+                                  href="tp-contractors-alliances-ar.html">الشراكات بين مزودي التقنيات والمقاولين</a>
+                                <a class="list-group-item"
+                                  href="innovation-park-ar.html">واحة الإبتكار</a>
+                              </div>
+                            </div>
+      
+      
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown position-static noleft">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      data-bs-auto-close="outside">المركز الإعلامي</a>
+                    <ul class="dropdown-menu shadow">
+                      <li><a class="dropdown-item" href="construction-ar.html"> آخر الأخبار</a></li>
+                      <li><a class="dropdown-item" href="construction-ar.html">المؤتمرات والندوات</a></li>
+                      <li><a class="dropdown-item" href="construction-ar.html">المنشورات</a></li>
+                      <li><a class="dropdown-item" href="construction-ar.html">التدريب</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div style="display: flex; align-items: fl;">
+              </div><!-- search -->
+              <div class="lang">
+                <div class="dropdown">
+                  <a class="btn dropdown-toggle" href="index.html"   aria-expanded="false">
+                    En
+                  </a>
+                </div>
+              </div>
+            </div>
+        </nav>
+      </div>
+    <section class="mmc-summary">
+        <div class="topbgblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="text-left col-md-12 welco-box">
+                            <h3 class="welcom-title" data-aos="fade-up" data-aos-duration="1000">
+                                أساليب البناء الحديث 
+                            </h3>
+                            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                الخرسانة الخلوية خفيفة الوزن
+                            </h1>
+                            <p class="welcom-sub-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                                الخرسانة الخلوية خفيفة الوزن مصنوعة من مادة تحتوي على فقاعات هواء وتنتج مادة خفيفة الوزن منخفضة الكثافة عند معالجتها حراريا في افران الأوتوكلاف (autoclave). هذه الخرسانة عملية للغاية ويمكن قصها وحفرها باستخدام الأدوات التقليدية ، مثل المناشير الشريطية والمثاقب الكهربائية العادية. هي مصنوعة من الركام الناعم والأسمنت وعامل التمدد الذي يتسبب في ارتفاع المزيج مثل عجين الخبز (حيث تحتوي على 80٪ هواء). يتم تشكيل المواد وتقطيعها إلى وحدات ذات أبعاد دقيقة. وتتراوح منتجاتها بين أنواع طوب البناء والألواح الصغيرة والخرسانة المسلحة الأفقية والرأسية والألواح الخرسانية غير المسلحة والعتبات وعزل الأسقف. منتجات الخرسانة الخلوية خفيفة الوزن (AAC) عبارة عن طوب صلب وألواح صلبة مكدسة ومربوطة ويمكن تقويتها بالفولاذ أو عناصر هيكلية أخرى لمزيد من القوة. يمكن تركيبها بسهولة بواسطة البنائين وتستخدم في جميع المباني والعناصر الإنشائية وغير الإنشائية وطوب البناء وغيره
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="img-small-screen-container" data-aos="fade-up" data-aos-duration="1000">
+                            <img class="img-small-screen" src="images/autoclaved-aerated-concrete.jpg"
+                                alt="Autoclaved Aerated Concrete">
+                        </div>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 629.9 607"
+                            style="enable-background:new 0 0 629.9 607;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    clip-path: url(#SVGID_00000096757821818876817860000000203726894700410026_);
+                                }
+
+                                .st1 {
+                                    fill: #203656;
+                                }
+
+                                .st2 {
+                                    fill: none;
+                                    stroke: url(#SVGID_00000030472970242215680690000013469837671139704750_);
+                                }
+
+                                .st3 {
+                                    fill: #3874A4;
+                                }
+
+                                .st4 {
+                                    fill: #009D96;
+                                }
+
+                                .st5 {
+                                    fill: #65B43B;
+                                }
+
+                                .st6 {
+                                    fill: none;
+                                }
+                            </style>
+                            <g>
+                                <g>
+                                    <defs>
+                                        <rect id="SVGID_1_" x="0.9" y="0" width="629" height="607" />
+                                    </defs>
+                                    <clipPath id="SVGID_00000060738432817540529440000007039008446488739007_">
+                                        <use xlink:href="#SVGID_1_" style="overflow:visible;" />
+                                    </clipPath>
+                                    <g
+                                        style="clip-path:url(#SVGID_00000060738432817540529440000007039008446488739007_);">
+                                        <g>
+                                            <g>
+                                                <path class="st1"
+                                                    d="M629.9-64c-212,15.2-629,62.5-629,420.8c0,332.3,417,389.3,629,394.2V-64" />
+                                            </g>
+                                        </g>
+
+                                        <linearGradient id="SVGID_00000080197732209041394420000018020026506666517148_"
+                                            gradientUnits="userSpaceOnUse" x1="352.9" y1="5165.4639" x2="352.9"
+                                            y2="5908.4639" gradientTransform="matrix(1 0 0 1 0 -5246)">
+                                            <stop offset="0" style="stop-color:#1DA1F2" />
+                                            <stop offset="0.276" style="stop-color:#007DB0" />
+                                            <stop offset="0.5417" style="stop-color:#009D96" />
+                                            <stop offset="0.8281" style="stop-color:#3BA536" />
+                                            <stop offset="1" style="stop-color:#67B14F" />
+                                        </linearGradient>
+                                        <path
+                                            style="fill:none;stroke:url(#SVGID_00000080197732209041394420000018020026506666517148_);"
+                                            d="M59.9,303.7
+                                   C59.9-23,448.4-66.1,645.9-80v743C448.4,658.6,59.9,606.6,59.9,303.7z" />
+                                    </g>
+                                </g>
+                            </g>
+                            <path class="st3" d="M489.9,211.6c0,1.8-0.5,3.6-1.3,5.1c-0.9,1.5-2.1,2.7-3.5,3.4s-3,0.9-4.5,0.5s-2.9-1.2-4-2.5s-1.8-2.9-2.2-4.7
+                       c-0.3-1.8-0.1-3.6,0.4-5.3c0.6-1.7,1.6-3.1,2.9-4.1s2.8-1.5,4.4-1.5c1,0,2.1,0.2,3,0.7c1,0.5,1.8,1.1,2.6,2c0.7,0.9,1.3,1.9,1.7,3
+                       C489.7,209.2,489.9,210.4,489.9,211.6z" />
+                            <path class="st4" d="M455.9,198.6c0,1.8-0.5,3.6-1.3,5.1c-0.9,1.5-2.1,2.7-3.5,3.4s-3,0.9-4.5,0.5s-2.9-1.2-4-2.5s-1.8-2.9-2.2-4.7
+                       c-0.3-1.8-0.2-3.6,0.4-5.3s1.6-3.1,2.9-4.1s2.8-1.5,4.4-1.5c1,0,2.1,0.2,3,0.7s1.8,1.1,2.5,2s1.3,1.9,1.7,3
+                       C455.7,196.2,455.9,197.4,455.9,198.6" />
+                            <path class="st3" d="M431.4,218c0,1.3-0.3,2.7-1,3.8c-0.6,1.1-1.5,2-2.6,2.5s-2.2,0.6-3.4,0.4c-1.1-0.3-2.2-0.9-3-1.9
+                       s-1.4-2.2-1.6-3.5s-0.1-2.7,0.3-3.9s1.2-2.3,2.2-3s2.1-1.1,3.2-1.1c0.8,0,1.5,0.2,2.2,0.5s1.3,0.8,1.9,1.5c0.5,0.6,1,1.4,1.3,2.2
+                       C431.2,216.2,431.4,217.1,431.4,218" />
+                            <path class="st3"
+                                d="M414.5,191.8c0,1.3-0.3,2.7-1,3.8c-0.6,1.1-1.5,2-2.6,2.5s-2.2,0.6-3.4,0.4c-1.1-0.3-2.2-0.9-3-1.9
+                       s-1.4-2.2-1.6-3.5s-0.1-2.7,0.3-3.9s1.2-2.3,2.2-3.1c1-0.7,2.1-1.1,3.2-1.1c1.6,0,3,0.7,4.1,2C413.9,188.3,414.5,190,414.5,191.8" />
+                            <path class="st3" d="M403.1,215c0,1-0.3,2.1-0.8,2.9c-0.5,0.9-1.2,1.5-2,1.9s-1.7,0.5-2.6,0.3s-1.7-0.7-2.3-1.4
+                       c-0.6-0.7-1.1-1.7-1.2-2.7c-0.2-1-0.1-2.1,0.3-3c0.3-1,0.9-1.8,1.7-2.4c0.7-0.6,1.6-0.9,2.5-0.9c0.6,0,1.2,0.1,1.7,0.4
+                       c0.6,0.3,1.1,0.7,1.5,1.1c0.4,0.5,0.8,1.1,1,1.7C403,213.6,403.1,214.3,403.1,215" />
+                            <path class="st3" d="M377.6,215c0,0.8-0.2,1.5-0.6,2.2s-0.9,1.1-1.5,1.4c-0.6,0.3-1.3,0.4-1.9,0.2s-1.2-0.5-1.7-1.1
+                       c-0.5-0.5-0.8-1.2-0.9-2s-0.1-1.5,0.2-2.3c0.2-0.7,0.7-1.3,1.2-1.7c0.6-0.4,1.2-0.7,1.9-0.7c0.9,0,1.7,0.4,2.4,1.1
+                       C377.3,212.9,377.6,213.9,377.6,215z" />
+                            <path class="st4" d="M380.3,191.6c0,0.6-0.2,1.2-0.5,1.7s-0.7,0.9-1.2,1.2c-0.5,0.2-1,0.3-1.6,0.2c-0.5-0.1-1-0.4-1.4-0.9
+                       c-0.4-0.4-0.6-1-0.7-1.6s0-1.2,0.2-1.8s0.6-1.1,1-1.4c0.4-0.3,1-0.5,1.5-0.5c0.7,0,1.4,0.3,1.9,0.9
+                       C380,189.9,380.3,190.7,380.3,191.6" />
+                            <path class="st4" d="M430.2,179.3c0,0.9-0.2,1.7-0.6,2.4s-1,1.3-1.7,1.6s-1.4,0.4-2.2,0.3c-0.7-0.2-1.4-0.6-1.9-1.2
+                       c-0.5-0.6-0.9-1.4-1-2.2s-0.1-1.7,0.2-2.5c0.3-0.8,0.8-1.5,1.4-1.9c0.6-0.5,1.3-0.7,2.1-0.7c1,0,1.9,0.5,2.6,1.3
+                       C429.8,177.1,430.2,178.2,430.2,179.3z" />
+                            <path class="st5" d="M393.9,175.5c0,0.9-0.3,1.8-0.8,2.5s-1.2,1.3-2,1.7c-0.8,0.3-1.7,0.4-2.6,0.3c-0.9-0.2-1.7-0.6-2.3-1.2
+                       c-0.6-0.6-1.1-1.4-1.2-2.3c-0.2-0.9-0.1-1.8,0.2-2.6c0.3-0.8,0.9-1.5,1.7-2s1.6-0.8,2.5-0.8c0.6,0,1.2,0.1,1.7,0.3s1,0.6,1.5,1
+                       c0.4,0.4,0.8,0.9,1,1.5C393.8,174.3,393.9,174.9,393.9,175.5" />
+                            <path class="st3" d="M388.9,265.6c0,1.8,0.5,3.6,1.3,5.1c0.9,1.5,2.1,2.7,3.5,3.4c1.4,0.7,3,0.9,4.5,0.5s2.9-1.2,4-2.5
+                       s1.8-2.9,2.2-4.7c0.3-1.8,0.1-3.6-0.4-5.3c-0.6-1.7-1.6-3.1-2.9-4.1s-2.8-1.5-4.4-1.5c-1,0-2.1,0.2-3,0.7c-1,0.5-1.8,1.1-2.6,2
+                       c-0.7,0.9-1.3,1.9-1.7,3C389.1,263.2,388.9,264.4,388.9,265.6z" />
+                            <path class="st4" d="M422.9,252.6c0,1.8,0.5,3.6,1.3,5.1c0.9,1.5,2.1,2.7,3.5,3.4c1.4,0.7,3,0.9,4.5,0.5s2.9-1.2,4-2.5
+                       s1.8-2.9,2.2-4.7c0.3-1.8,0.2-3.6-0.4-5.3s-1.6-3.1-2.9-4.1s-2.8-1.5-4.4-1.5c-1,0-2.1,0.2-3,0.7s-1.8,1.1-2.5,2s-1.3,1.9-1.7,3
+                       C423.1,250.2,422.9,251.4,422.9,252.6" />
+                            <path class="st3" d="M447.5,272c0,1.3,0.3,2.7,1,3.8c0.6,1.1,1.5,2,2.6,2.5s2.2,0.6,3.4,0.4c1.1-0.3,2.2-0.9,3-1.9s1.4-2.2,1.6-3.5
+                       s0.1-2.7-0.3-3.9c-0.4-1.2-1.2-2.3-2.2-3s-2.1-1.1-3.2-1.1c-0.8,0-1.5,0.2-2.2,0.5s-1.3,0.8-1.9,1.5c-0.5,0.6-1,1.4-1.3,2.2
+                       C447.6,270.2,447.5,271.1,447.5,272" />
+                            <path class="st3"
+                                d="M464.4,245.8c0,1.3,0.3,2.7,1,3.8c0.6,1.1,1.5,2,2.6,2.5s2.2,0.6,3.4,0.4c1.1-0.3,2.2-0.9,3-1.9
+                       s1.4-2.2,1.6-3.5s0.1-2.7-0.3-3.9s-1.2-2.3-2.2-3.1c-1-0.7-2.1-1.1-3.2-1.1c-1.6,0-3,0.7-4.1,2C465,242.3,464.4,244,464.4,245.8" />
+                            <path class="st3" d="M475.7,269c0,1,0.3,2.1,0.8,2.9c0.5,0.9,1.2,1.5,2,1.9s1.7,0.5,2.6,0.3s1.7-0.7,2.3-1.4
+                       c0.6-0.7,1.1-1.7,1.2-2.7c0.2-1,0.1-2.1-0.3-3c-0.3-1-0.9-1.8-1.7-2.4c-0.7-0.6-1.6-0.9-2.5-0.9c-0.6,0-1.2,0.1-1.7,0.4
+                       c-0.6,0.3-1.1,0.7-1.5,1.1c-0.4,0.5-0.8,1.1-1,1.7C475.9,267.6,475.7,268.3,475.7,269" />
+                            <path class="st3"
+                                d="M501.2,269c0,0.8,0.2,1.5,0.6,2.2s0.9,1.1,1.5,1.4s1.3,0.4,1.9,0.2c0.6-0.2,1.2-0.5,1.7-1.1s0.8-1.2,0.9-2
+                       s0.1-1.5-0.2-2.3c-0.2-0.7-0.7-1.3-1.2-1.7c-0.6-0.4-1.2-0.7-1.9-0.7c-0.9,0-1.7,0.4-2.4,1.1C501.6,266.9,501.2,267.9,501.2,269z" />
+                            <path class="st4" d="M498.5,245.6c0,0.6,0.2,1.2,0.5,1.7s0.7,0.9,1.2,1.2c0.5,0.2,1,0.3,1.6,0.2c0.5-0.1,1-0.4,1.4-0.9
+                       c0.4-0.4,0.6-1,0.7-1.6s0-1.2-0.2-1.8s-0.6-1.1-1-1.4c-0.4-0.3-1-0.5-1.5-0.5c-0.7,0-1.4,0.3-1.9,0.9
+                       C498.8,243.9,498.5,244.7,498.5,245.6" />
+                            <path class="st4" d="M448.7,233.3c0,0.9,0.2,1.7,0.6,2.4s1,1.3,1.7,1.6s1.4,0.4,2.2,0.3c0.7-0.2,1.4-0.6,1.9-1.2
+                       c0.5-0.6,0.9-1.4,1-2.2s0.1-1.7-0.2-2.5c-0.3-0.8-0.8-1.5-1.4-1.9c-0.6-0.5-1.3-0.7-2.1-0.7c-1,0-1.9,0.5-2.6,1.3
+                       C449,231.1,448.7,232.2,448.7,233.3z" />
+                            <path class="st5" d="M484.9,229.5c0,0.9,0.3,1.8,0.8,2.5s1.2,1.3,2,1.7c0.8,0.3,1.7,0.4,2.6,0.3c0.9-0.2,1.7-0.6,2.3-1.2
+                       c0.6-0.6,1.1-1.4,1.2-2.3c0.2-0.9,0.1-1.8-0.2-2.6c-0.3-0.8-0.9-1.5-1.7-2s-1.6-0.8-2.5-0.8c-0.6,0-1.2,0.1-1.7,0.3s-1,0.6-1.5,1
+                       c-0.4,0.4-0.8,0.9-1,1.5C485,228.3,484.9,228.9,484.9,229.5" />
+                            <g>
+                                <rect x="82.9" y="105" class="st6" width="356" height="467" />
+                            </g>
+                            <g>
+                                <defs>
+                                    <circle id="SVGID_00000089540499905196651100000012268006412380684727_" cx="265.9"
+                                        cy="305" r="165" />
+                                </defs>
+                                <clipPath id="SVGID_00000180325628789066092140000015787670752331911597_">
+                                    <use xlink:href="#SVGID_00000089540499905196651100000012268006412380684727_"
+                                        style="overflow:visible;" />
+                                </clipPath>
+
+                                <g transform="matrix(1 0 0 1 -7.629395e-06 0)"
+                                    style="clip-path:url(#SVGID_00000180325628789066092140000015787670752331911597_);">
+
+                                    <image style="overflow:visible;" width="990" height="990"
+                                        xlink:href="images/autoclaved-aerated-concrete.jpg"
+                                        transform="matrix(0.3445 0 0 0.3445 95.3737 134.8591)">
+                                    </image>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- structure -->
+    <section class="method-features" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 data-aos="fade-up" data-aos-duration="1000">المميزات</h5>
+                    <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">نحن نقدم أفضل الحلول
+                    </h2>
+                    <img src="images/building-small.jpg" alt="Method Features" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-delay="600">
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/time.svg"  alt="Speed of Construction" class="svg-inline">
+                            سرعة البناء                          
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    المساعدة على سرعة التسليم بنسبة تزيد عن 30٪ مما يؤدي إلى تحصيل عائد أسرع على الاستثمار
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/money.svg" alt="Speed of Construction" class="svg-inline">
+                            الفعالية من حيث التكلفة
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    تتطلب استثمارات أقل في أعمال البناء بسبب وزنها الخفيف وتقليل الوزن الميت للمبنى
+                                </li>
+                                <li>
+                                    التقليل من الحاجة للأسمنت والصلب          
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/quality.svg" alt="Speed of Construction" class="svg-inline">
+                            سهولة النقل
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    الوزن الخفيف بطبيعته يؤدي إلى سهولة النقل       
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/maintainance.svg" alt="Speed of Construction" class="svg-inline">
+                            مرونة التصميم والبناء
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    وفير المرونة في تصنيع الأشكال والأحجام المختلفة                                </li>
+                                <li>
+                                    سهولة القص والتشكيل في الموقع
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/insulation.svg" alt="Speed of Construction" class="svg-inline">
+                            العزل
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    العزل الحراري العالي  مما يعطي كفاءة أعلى في استخدام الطاقة للمبنى
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-container">
+                        <button class="accordion-btn">
+                            <img src="images/safety.svg" alt="Speed of Construction" class="svg-inline">
+                            الأمان
+                        </button>
+                        <div class="panel">
+                            <ul>
+                                <li>
+                                    مقاومة عالية للحرائق (تصمد أكثر من 4 ساعات)      
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="space85"></div>
+    </section>
+    <footer>
+        <div class="container line-bottom">
+            <div class="row">
+                <div class="col-md-4 ptb30">
+                    <div class="row space10">
+                        <div class="col-md-1"><img src="images/phone-outline.svg"></div>
+                        <div class="col-md-11"><a href="tel:199090" class="white-text">199090</a></div>
+                    </div>
+                    <div class="row space10">
+                        <div class="col-md-1"><img src="images/email.svg"></div>
+                        <div class="col-md-11"><a href="mailto:bti@momrah.gov.sa"
+                                class="white-text">bti@momrah.gov.sa</a></div>
+                    </div>
+
+                </div><!-- col-md-4 -->
+                <div class="col-md-4 ptb30">
+                    <div class="footer-social-text">سنكون سعداء بمتابعتنا على حسابات وسائل التواصل الاجتماعي الخاصة بنا</div>           
+					<div class="row social-link">
+						<div class="col-md-2"><a href="https://www.instagram.com/saudimomra/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://twitter.com/saudimomrah" class="twitter"><i class="fa-brands fa-twitter"></i></a></div>
+						<div class="col-md-2"><a href="https://www.linkedin.com/company/ministry-of-municipal-and-rural-affairs-and-housing/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://www.facebook.com/saudimomra" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+						</div>
+						<div class="col-md-2"><a href="https://www.youtube.com/user/SaudiMOMRA" class="youtube"><i class="fa-brands fa-youtube"></i></a></div>
+					</div>
+                </div><!-- col-md-4 -->
+                <div class="col-md-4 ptb30 footer-logos">
+                    <img src="images/momrah-logo-white.svg" alt="momrah">
+                    <img src="images/mc-logo-white.svg" alt="mc">
+                </div><!-- col-md-4 -->
+            </div><!-- row -->
+        </div><!-- container -->
+        <div class="container copyright text-center">
+            <div class="row">
+                <div class="col-md-12 w100">
+                    جميع الحقوق محفوظة - وزارة الشؤون البلدية والقروية والاسكان @ 2022   
+                             </div>
+            </div>
+        </div>
+    </footer><!-- footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src ="https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/inlineSVG.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

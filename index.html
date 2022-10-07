@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BTSI - Home</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+	<div class="preloader-wrapper">
+		<div class="preloader">
+			<img src="images/loader-image.gif" alt="BTSI">
+		</div>
+	</div>
+	<div id="myOverlay" class="overlay">
+		<span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+		<div class="overlay-content">
+			<form action="#">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="nav-center">
+					<div class="collapse navbar-collapse top-menu justify-content-center" id="navbarNavAltMarkup">
+						<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item dropdown position-static noleft">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+									data-bs-auto-close="outside">About</a>
+								<ul class="dropdown-menu shadow">
+									<li><a class="dropdown-item" href="btsi-strategy.html">BTSI Strategy</a></li>
+									<li><a class="dropdown-item" href="btsi-org-structure.html">BTSI Org.
+											Structure</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown position-static noleft">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+									data-bs-auto-close="outside">MMC</a>
+								<ul class="dropdown-menu shadow">
+									<li><a class="dropdown-item" href="insulated-precast-systems.html">Insulated
+											Precast
+											Systems</a></li>
+									<li><a class="dropdown-item" href="autoclaved-aerated-concrete.html">Autoclaved
+											Aerated Concrete</a></li>
+									<li><a class="dropdown-item" href="tunnel-formwork.html">Tunnel Formwork</a>
+									</li>
+									<li><a class="dropdown-item" href="insulated-concrete-forms.html">Insulated
+											Concrete
+											Forms</a></li>
+									<li><a class="dropdown-item"
+											href="modular-and-structural-light-gauge-steel.html">Modular and
+											Structural
+											Light Gauge Steel</a></li>
+									<li><a class="dropdown-item" href="modular-concrete.html">Modular Concrete</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown position-static noleft">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+									data-bs-auto-close="outside">FMC</a>
+									<ul class="dropdown-menu shadow">
+										<li><a class="dropdown-item" href="3d-printing-technology.html">3D Printing
+												Technology</a></li>
+										<li><a class="dropdown-item" href="advanced-prefab-construction.html">Advanced
+													Prefab Construction</a></li>
+										<li><a class="dropdown-item" href="robotics.html">Robotics</a></li>
+										<li><a class="dropdown-item" href="smart-devices.html">Smart Devices</a></li>
+										<li><a class="dropdown-item" href="drones.html">Drones</a></li>
+										<li><a class="dropdown-item" href="advanced-materials.html">Advanced
+												Materials</a>
+										</li>
+										<li><a class="dropdown-item" href="advanced-software.html">Advanced Software</a>
+										</li>
+										<li><a class="dropdown-item" href="sustainable-energy-solutions.html">Sustainable
+												Energy Solutions</a></li>
+									</ul>
+							</li>
+							<li class="nav-item dropdown dropdown-mega position-static noborder">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+									data-bs-auto-close="outside">Services</a>
+								<div class="dropdown-menu shadow">
+									<div class="mega-content px-4">
+										<div class="container-fluid">
+											<div class="row">
+	
+												<div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+													<h5>Financial Offerings</h5>
+													<div class="list-group">
+														<a class="list-group-item" href="tp-funding.html">TP
+															Funding</a>
+														<a class="list-group-item"
+															href="working-capital-funding.html">Working Capital
+															Funding</a>
+														<a class="list-group-item"
+															href="homebuilders-funding.html">Homebuilders
+															Funding</a>
+														<a class="list-group-item" href="land-subsidization.html">Land
+															Subsidization</a>
+													</div>
+												</div>
+	
+												<div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+													<h5>Regulatory & Qualification</h5>
+													<div class="list-group">
+														<a class="list-group-item"
+															href="technology-approval.html">Technology Approval</a>
+														<a class="list-group-item"
+															href="contractors-qualification.html">Contractors
+															Qualification</a>
+														<a class="list-group-item"
+															href="engineering-offices-qualifications.html">Engineering
+															Offices Qualifications</a>
+													</div>
+												</div>
+	
+												<div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+													<h5>Sector Upskilling</h5>
+													<div class="list-group">
+														<a class="list-group-item" href="trainings-webinars.html">Trainings
+															& Webinars</a>
+														<a class="list-group-item"
+															href="value-engineering-advisory-services.html">Value
+															Engineering & Advisory Services</a>
+														<a class="list-group-item" href="mmc-curricula.html">MMC
+															Curricula</a>
+														<a class="list-group-item" href="mmc-scholarships.html">MMC
+															Scholarships</a>
+													</div>
+												</div>
+	
+												<div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+													<h5>FMC Innovation</h5>
+													<div class="list-group">
+														<a class="list-group-item" href="fmc-localization.html">FMC
+															Localization</a>
+														<a class="list-group-item" href="pilots-implementation.html">Pilots
+															Implementation</a>
+													</div>
+												</div>
+	
+												<div class="col-12 col-sm-4 col-md-3 col-lg py-4">
+													<h5>Ecosystem Enablement</h5>
+													<div class="list-group">
+														<a class="list-group-item" href="tp-developer-matchmaking.html">TP -
+															Developer
+															Matchmaking</a>
+														<a class="list-group-item" href="tp-contractors-alliances.html">TP -
+															Contractors
+															Alliances</a>
+														<a class="list-group-item" href="innovation-park.html">Innovation
+															Park</a>
+													</div>
+												</div>
+	
+	
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown position-static noleft">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+									data-bs-auto-close="outside">Media & Events</a>
+								<ul class="dropdown-menu shadow">
+									<li><a class="dropdown-item" href="construction.html">Latest News</a></li>
+									<li><a class="dropdown-item" href="construction.html">Latest Events</a></li>
+									<li><a class="dropdown-item" href="construction.html">Publications</a></li>
+									<li><a class="dropdown-item" href="construction.html">Trainings</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div style="display: flex; align-items: fl;">
+					<div class="lang">
+						<div class="dropdown">
+						  <a class="btn dropdown-toggle" href="index-ar.html"   aria-expanded="false">
+							عربي
+						  </a>
+						</div>
+					  </div>
+				</div>
+		</nav>
+	</div>
+	<section class="top-hero"
+		style="background: url(images/slider-1.png);background-size: cover;background-repeat: no-repeat;background-position: center;">
+		<div class="container align-center">
+			<div class="row justify-content-start content-box">
+				<div class="white">
+					<p class="section-hero-title align-left col-lg-6 col-md-6 " data-aos="fade-up"
+						data-aos-duration="3000">
+						Leading The Way In
+						<br>
+						Modern Constructions
+					</p>
+					<p class="section-hero-text align-left col-lg-5 col-md-5 " data-aos-delay="300" data-aos="fade-up"
+						data-aos-duration="3000">
+						Building Technology Stimulus Initiative was launched as a part of the housing eco-system, in order to lay the foundation of moving from traditional to modern construction, through investing in advanced technologies that contributes to coping with industrial advancement, emphasizing the Kingdom’s leadership role in this field and the efforts put into enabling citizens to obtain the house that matches their expectations of high quality and competitive cost in a shorter lead-time. To insure achieving the aspirations of the Kingdom and its citizens; the initiative is overseen by the Housing Program, the National Industrial Developments and Logistics Program, and supported by the Private Sector Stimulus Plan
+					</p>
+					<div class="mbr-section-btn align-left " data-aos-delay="600" data-aos="fade-up"
+						data-aos-duration="3000">
+						<a class="btn-md slider-btn " href="https://mcqc.momrah.gov.sa/prweb/PRAuth/ForeignUser">
+							login
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- top-hero -->
+	<section class="features">
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-md-12 welco-box" data-aos="fade-up" data-aos-duration="1000">
+					<p class="welcom-text">Are you ready for a better, more<br>productive progress?</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="text-center col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+					<div class="fea-icon"><img src="images/quality.svg"></div>
+					<div class="fea-title text-center"><a href="#">HIGH QUALITY</a></div>
+				</div>
+				<div class="text-center col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+					<div class="fea-icon"><img src="images/money.svg"></div>
+					<div class="fea-title text-center"><a href="#">COMPETITIVE COST</a></div>
+				</div>
+				<div class="text-center col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+					<div class="fea-icon"><img src="images/time.svg"></div>
+					<div class="fea-title text-center"><a href="#">SHORTER TIME</a></div>
+				</div>
+			</div>
+			<div class="space85"></div>
+		</div>
+	</section><!-- features -->
+	<section class="solution">
+		<div class="container">
+			<div class="row">
+				<div class="text-center col-md-12 welco-box" data-aos="fade-up" data-aos-duration="1000">
+					<p class="welcom-text">We make solutions that meets <br>your needs</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+					<div class="service-green"
+						style="background-image:url(images/card-2.png);background-repeat: no-repeat;background-position: bottom center;background-size: contain;padding-bottom: 175px;margin-bottom: 20px;">
+						<div class="service-green-bg">
+							<div class="content-card">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-serv-2"></div>
+									</div>
+									<div class="col-md-10">
+										<h5 class="card-title">Financial Offerings</h5>
+									</div>
+								</div>
+								<ul class="card-text">
+									<li><a href="#">TP Funding</a></li>
+									<li><a href="#">Working Capital Funding </a></li>
+									<li><a href="#">Homebuilders Funding (to be activated)</a></li>
+									<li><a href="#">Land Subsidization</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- col-md-6 -->
+				<div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+					<div class="service-blue"
+						style="background-image: url(images/card-1.png);background-repeat: no-repeat;background-position: top center;background-size: contain;padding-top: 175px;margin-bottom: 20px;">
+						<div class="service-blue-bg">
+							<div class="content-card">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-serv-1"></div>
+									</div>
+									<div class="col-md-10">
+										<h5 class="card-title">Regulatory & Qualification</h5>
+									</div>
+								</div>
+								<ul class="card-text">
+									<li><a href="#"> Technology Approval</a></li>
+									<li><a href="#"> Engineering Offices Qualifications </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- col-md-6 -->
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-md-12 hide-in-desktop" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+					<div class="service-darkblue"
+						style="background-image:url(images/card-5.png);background-repeat: no-repeat;background-position: right center;background-size: contain;padding-right: 545px;">
+						<div class="service-darkblue-bg">
+							<div class="content-card">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-serv-5"></div>
+									</div>
+									<div class="col-md-10">
+										<h5 class="card-title">Sector Upskilling</h5>
+									</div>
+								</div>
+								<ul class="card-text">
+									<li><a href="#">MMC Trainings & Webinars</a></li>
+									<li><a href="#">Value Engineering & Advisory Services </a></li>
+									<li><a href="#">MMC Curricula</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- col-md-12 -->
+
+			</div><!-- row -->
+			<div class="row">
+				<div class="col-md-6" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+					<div class="service-greenflat"
+						style="background-image: url(images/card-3.png);background-repeat: no-repeat;background-position: top center;background-size: contain;padding-top: 185px;margin-bottom: 20px;">
+						<div class="service-greenflat-bg">
+							<div class="content-card">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-serv-3"></div>
+									</div>
+									<div class="col-md-10">
+										<h5 class="card-title">Future Method Construction Innovation</h5>
+									</div>
+								</div>
+								<ul class="card-text">
+									<li><a href="#">FMC Localization</a></li>
+									<li><a href="#">Pilots Implementation </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- col-md-6 -->
+				<div class="col-md-6" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
+					<div class="service-orange"
+						style="background-image:url(images/card-4.png);background-repeat: no-repeat;background-position: bottom center;background-size: contain;padding-bottom: 175px;margin-bottom: 20px;">
+						<div class="service-orange-bg">
+							<div class="content-card">
+								<div class="row">
+									<div class="col-md-2">
+										<div class="icon-serv-4"></div>
+									</div>
+									<div class="col-md-10">
+										<h5 class="card-title">Ecosystem Enablement</h5>
+									</div>
+								</div>
+								<ul class="card-text">
+									<li><a href="#">TP - Developer Matchmaking</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- col-md-6 -->
+			</div><!-- row -->
+		</div>
+	</section><!-- solution -->
+	<section class="mmc">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div
+						class="mmc-title animation-dramatic-content animate-dramatic ani_fadeInLeft aniUtil_dramatic aniUtil_active animate__animated animate__fadeInLeft">
+						Modern Methods<br>of Construction</div>
+				</div><!-- col-md-6 -->
+				<div class="col-md-8">
+					<div
+						class="mmc-text animation-dramatic-content animate-dramatic ani_fadeInRight aniUtil_dramatic aniUtil_active animate__animated animate__fadeInRight">
+						Modern Methods of Construction (MMC) cover new and improved ways to perform the construction
+						process. Using MMCs will lead to higher quality outputs and faster construction times, while
+						decreasing the overall lifetime costs of the project. BTSI is working to improve the supply and
+						demand of 6 MMC technologies in the Kingdom</div>
+				</div><!-- col-md-6 -->
+			</div>
+		</div>
+		<div class="container line-bg">
+			<div class="row">
+				<div class="mmc-box col-md-2 mt200" data-aos="fade" data-aos-duration="3000"><a href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-1.png" class="mmc-img"></div>
+						<div class="fea-title">Modular Concrete</div>
+					</a></div>
+				<div class="mmc-box col-md-2 mt150" data-aos="fade" data-aos-duration="3000" data-aos-delay="500"><a
+						href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-2.png" class="mmc-img"></div>
+						<div class="fea-title">Modular and Structural Light Gauge Steel</div>
+					</a></div>
+				<div class="mmc-box col-md-2 mt100" data-aos="fade" data-aos-duration="3000" data-aos-delay="1000"><a
+						href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-3.png" class="mmc-img"></div>
+						<div class="fea-title">Insulated <br> Concrete Forms</div>
+					</a></div>
+				<div class="mmc-box col-md-2 mt50" data-aos="fade" data-aos-duration="3000" data-aos-delay="1500"><a
+						href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-4.png" class="mmc-img"></div>
+						<div class="fea-title">Tunnel<br>Formwork</div>
+					</a></div>
+				<div class="mmc-box col-md-2 mt30" data-aos="fade" data-aos-duration="3000" data-aos-delay="2000"><a
+						href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-5.png" class="mmc-img"></div>
+						<div class="fea-title">Autoclaved<br>Aerated<br>Concrete</div>
+					</a></div>
+				<div class="mmc-box col-md-2 mt20" data-aos="fade" data-aos-duration="3000" data-aos-delay="2500"><a
+						href="#">
+						<div class="fea-icon text-center"><img src="images/mmc-6.png" class="mmc-img"></div>
+						<div class="fea-title">Insulated<br>Precast Systems</div>
+					</a></div>
+			</div>
+		</div>
+	</section><!-- mmc -->
+	<section class="fmc">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="title text-center">Future Methods of <br> Construction</h2>
+					<p class="text text-center">Future Methods of Construction (FMC) cover futuristic approaches to
+						construction that have not yet been<br> adopted fully internationally and regionally. BTSI is
+						looking to support FMC providers in the localization of <br> technology providers in the
+						Kingdom.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" data-aos="fade-down" data-aos-delay="500" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img src="images/images-fmc.png"></div>
+							<div class="fmc-box-title">3D Printing Technology</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img
+									src="images/developing-good-work-ethic-is-key-shot-handsome-male-construction-worker-using-tablet-while-standing-outside1.png">
+							</div>
+							<div class="fmc-box-title">Smart Devices</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-down" data-aos-delay="1500" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img src="images/290211.png"></div>
+							<div class="fmc-box-title">Robotics</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img
+									src="images/computer-display-with-3d-render-software-architectural-building-complex-architect-modern-office-desktop-screen-desk-showing-urban-planning-architecture-construction-plans1.png">
+							</div>
+							<div class="fmc-box-title">Advanced Prefab Construction</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img src="images/white-drone-hovering-bright-blue-sky1.png"></div>
+							<div class="fmc-box-title">Drones</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img src="images/brick-piles-placed-factory-floor1.png"></div>
+							<div class="fmc-box-title">Advanced Materials</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img
+									src="images/computer-display-with-3d-render-software-architectural-building-complex-architect-modern-office-desktop-screen-desk-showing-urban-planning-architecture-construction-plans1.png">
+							</div>
+							<div class="fmc-box-title">Advanced Software</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="3000">
+					<div class="fmc-box">
+						<a href="#" class="">
+							<div class="fmc-img"><img
+									src="images/lightbulb-with-small-plant-soil-sunshine-concept-saving-energy-nature1.png">
+							</div>
+							<div class="fmc-box-title">Sustainable Energy Solutions</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- fmc -->
+	<section class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="blog-post animation-dramatic-content" data-aos="fade-up" data-aos-duration="3000">
+						<div class="blog-border">
+							<div class="date-post">August 01 , 2022</div>
+							<a href="#" class="title-post">News or event title here you can write</a>
+							<a href="#" class="images-post"><img src="images/post.png" alt="post"></a>
+						</div><!-- blog-border -->
+					</div><!-- blog-post -->
+				</div><!-- col-md-6 -->
+				<div class="col-md-6">
+					<div class="newsletter" data-aos="fade-up" data-aos-duration="3000">
+						<div class="newsletter-box">
+							<div class="row">
+								<div class="col-md-9">
+									<div class="newsletter-title">Event paragraph title here you can write</div>
+									<div class="newsletter-sub-title">Future Methods of Construction</div>
+								</div><!-- col-md-9 -->
+								<div class="col-md-3">
+									<div class="newsletter-date">
+										<div class="date-no">04</div>
+										<div class="date-text">AUG</div>
+									</div>
+								</div><!-- col-md-3 -->
+							</div><!-- row -->
+						</div><!-- newsletter-box -->
+						<div class="row newsletter-event">
+							<div class="col-md-2">
+								<img src="images/newsletter-icon.svg" class="newsletter-icon">
+							</div><!--  col-md-2 -->
+							<div class="col-md-10">
+								<div class="publish-sub-text">Publications</div><!-- publish-sub-text -->
+								<a href="#" class="publish-text">Event paragraph title here you can write</a>
+								<!-- publish-text -->
+								<div class="publish-date">August 01 , 2022</div><!-- publish-date -->
+							</div><!-- col-md-10 -->
+						</div><!-- newsletter-event -->
+					</div><!-- newsletter -->
+				</div><!-- col-md-6 -->
+			</div>
+		</div>
+
+
+	</section><!-- blog -->
+	<section class="clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Set up your HTML -->
+					<div
+						class="owl-carousel-line animation-dramatic-content animate-dramatic ani_fadeIn aniUtil_dramatic aniUtil_active animate__animated animate__fadeIn">
+						<div class="owl-carousel">
+							<div><a href="#"><img src="images/human-resources-fund.svg"></a></div>
+							<div><a href="#"><img src="images/industry-and-mineral-resources.svg"></a></div>
+							<div><a href="#"><img src="images/saudi-contractors-authority.svg"></a></div>
+							<div><a href="#"><img src="images/saudi-council-engineer.svg"></a></div>
+							<div><a href="#"><img src="images/saudi-industrial-development-fund.svg"></a></div>
+							<div><a href="#"><img src="images/sidf.svg"></a></div>
+						</div>
+					</div><!-- owl-carousel-line -->
+				</div><!-- col-md-12 -->
+			</div><!-- row -->
+		</div> <!-- container -->
+	</section><!-- clients -->
+	<footer>
+		<div class="container line-bottom">
+			<div class="row">
+				<div class="col-md-4 ptb30">
+					<div class="row space10">
+						<div class="col-md-1"><img src="images/phone-outline.svg"></div>
+						<div class="col-md-11"><a href="tel:199090" class="white-text">199090</a></div>
+					</div>
+					<div class="row space10">
+						<div class="col-md-1"><img src="images/email.svg"></div>
+						<div class="col-md-11"><a href="mailto:bti@momrah.gov.sa"
+								class="white-text">bti@momrah.gov.sa</a></div>
+					</div>
+
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 ptb30">
+					<div class="footer-social-text">We will be happy to follow us on our social media accounts</div>
+					<div class="row social-link">
+						<div class="col-md-2"><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+						</div>
+						<div class="col-md-2"><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></div>
+						<div class="col-md-2"><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+						</div>
+						<div class="col-md-2"><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+						</div>
+						<div class="col-md-2"><a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a></div>
+					</div>
+				</div><!-- col-md-4 -->
+				<div class="col-md-4 ptb30 footer-logos">
+					<img src="images/momrah-logo-white.svg" alt="momrah">
+					<img src="images/mc-logo-white.svg" alt="mc">
+				</div><!-- col-md-4 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		<div class="container copyright text-center">
+			<div class="row">
+				<div class="col-md-12 w100">
+					All rights reserved to the Ministry of Municipal and Rural Affairs and Housing © 2022
+				</div>
+			</div>
+		</div>
+	</footer><!-- footer -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- <script src ="https://cdn.jsdelivr.net/gh/KodingKhurram/animate.css-dynamic@main/animate.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+	<script src="js/inlineSVG.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function () {
+			/* Client */
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 40,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 3,
+						nav: true
+					},
+					600: {
+						items: 3,
+						nav: false
+					},
+					1000: {
+						items: 6,
+						nav: true,
+						loop: false
+					}
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
